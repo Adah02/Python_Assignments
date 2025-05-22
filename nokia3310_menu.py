@@ -371,19 +371,19 @@ while True:
                   cost_settings = input("Press 0 > Back: ")
                   if cost_settings == "0":
                     break
-              case 2:
+              case "2":
                 while True:
                   print("All calls' cost")
                   all_calls = input("Press 0 > Back: ")
-                  if all_calls == 0:
+                  if all_calls == "0":
                     break
-              case 3:
+              case "3":
                 while True:
                   print("Clear counters")
                   clear_counter = input("Press 0 > Back: ")
-                  if clear_counter == 0:
+                  if clear_counter == "0":
                     break
-          case 7: 
+          case "7": 
             while True:
               print("""
 		Call cost settings
@@ -394,25 +394,25 @@ while True:
 		""")
               cost_settings = input("Enter selection")
               match cost_settings:
-                case 1:
+                case "1":
                   while True:
                     print("Call cost limit")
                     cost_limit = input("Press 0 > Back: ")
-                    if cost_limit == 0:
+                    if cost_limit == "0":
                       break
-                case 2:
+                case "2":
                   while True:
                     print("Show costs in")
                     show_cost = input("Press 0 > Back: ")
-                    if show_cost == 0:
+                    if show_cost == "0":
                       break
-          case 8:
+          case "8":
             while True:
               print("Prepaid")
               prepaid = input("Press 0 > Back: ")
-              if prepaid == 0:
+              if prepaid == "0":
                 break
-    case 5:
+    case "5":
       while True:
         print("""
 		Tones
@@ -430,53 +430,53 @@ while True:
 	      """)
         tones = input('Enter selection: ')
         match tones:
-          case 1:
+          case "1":
             while True:
               print("Ringing tone")
               ringing_tone = input("Press 0 > Back: ")
-              if ringing_tone == 0:
+              if ringing_tone == "0":
                 break
-          case 2:
+          case "2":
             while True:
               print("Ringing volume")
               ringing_volume = input("Press 0 > Back: ")
-              if ringing_volume == 0:
+              if ringing_volume == "0":
                 break
-          case 3:
+          case "3":
             while True:
               print("Incoming call alert")
               call_alert = input("Press 0 > Back: ")
-              if call_alert == 0:
+              if call_alert == "0":
                 break
-          case 4:
+          case "4":
             while True:
               print("Composer")
               composer = input("Press 0 > Back: ")
-              if composer == 0:
+              if composer == "0":
                 break
-          case 5:
+          case "5":
             while True:
               print("Message alert tone")
               alert_tone = input("Press 0 > Back: ")
-              if alert_tone == 0:
+              if alert_tone == "0":
                 break
-          case 6:
+          case "6":
             while True:
               print("Keypad tones")
               keypad_tones = input("Press 0 > Back: ")
-              if keypad_tones == 0:
+              if keypad_tones == "0":
                 break
-          case 7:
+          case "7":
             while True:
               print("Warning and game tones")
               game_tone = input("Press 0 > Back: ")
-              if game_tone == 0:
+              if game_tone == "0":
                 break
-          case 8:
+          case "8":
             while True:
               print("Vibrating alert")
               vibrating = input("Press 0 > Back: ")
-              if vibrating == 0:
+              if vibrating == "0":
                 break
           case "9":
             while True:
