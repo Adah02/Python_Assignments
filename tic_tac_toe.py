@@ -7,6 +7,7 @@ for index in range(0,3):
 
 win = 0;
 
+
 random_number = random.randrange(1,3);
 print(f'Player {random_number} starts')
 
